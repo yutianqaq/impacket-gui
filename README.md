@@ -20,23 +20,19 @@
 
 
 # 使用方式
-
-1.下载impacket
-
-```
-git https://github.com/fortra/impacket.git
-
-pip install -r requirements.txt
-```
-
-2.下载本项目
+kalin-linux 不需要额外下载 impacket
+1.下载本项目
 ```
 git https://github.com/yutianqaq/impacket-gui.git
 ```
 
-3.安装 Pyqt 等依赖
+2.安装 Pyqt 等依赖
+```
+cd impacket-gui
+pip install -r requirements.txt
+```
 
-4.运行
+3.运行
 PSEXEC 密码与哈希演示 gif
 ![](./img/1.gif)
 PSEXEC 密码
